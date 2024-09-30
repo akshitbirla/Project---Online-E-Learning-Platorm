@@ -5,7 +5,7 @@ const app = express()
 const mongoose = require('mongoose')
 const course = require('./Route/course')
 
-mongoose.connect('mongodb+srv://birlaakshit:Akshit%40123@cluster0.q3evb.mongodb.net/learningPlatform')
+const uri = mongoose.connect(process.env.MONGO_URI)
 .then(() => console.log('Connection is Successfull to Database'))
 .catch(err => console.error('Could not connect to mongodb', err))
 
