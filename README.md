@@ -1,4 +1,4 @@
-Online E-Learning Platform
+**Online E-Learning Platform**
 This is an online e-learning platform developed using Express.js and MongoDB. The platform provides APIs to manage categories, students, and courses for an educational platform.
 
 Features
